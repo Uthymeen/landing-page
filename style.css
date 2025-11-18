@@ -1,12 +1,15 @@
 body {
     font: roboto;
+    box-sizing: border-box;
+
 }
 
 .header, .footer {
     background: #1F2937;
 }
 
-.header h1 {
+
+.big-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -15,11 +18,15 @@ body {
 .header {
     font-size: 18px;
     color: #F9FAF8;
+    height: 40vh;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 400px;
+    margin-top: 20px;
+    
 }
 
 .call-to {
@@ -32,9 +39,117 @@ h2 {
     font-weight: 900;
 }
 
-blockquote {
+.quote {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+    background-color: #556680;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+
+    
+}
+
+.text {
+    width: 400px;
+}
+
+.sign-up {
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 5px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 380px;
+    gap: 50px;
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+    border: 5px solid blue;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+
+.items p {
+    margin-top: 210px;
+    
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.call {
+    height: 10vh;
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.call-to-action {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer {
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
