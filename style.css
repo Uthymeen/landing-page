@@ -147,9 +147,17 @@ h2 {
 }
 
 .footer {
-    height: 10vh;
+    height: 8vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: 700;
+    float: right;
+    margin-top: 40px;
+    
 }
