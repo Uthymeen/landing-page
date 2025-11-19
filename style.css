@@ -110,18 +110,16 @@ ul {
 .items {
     display: flex;
     justify-content: center;
-    
-
-
+    gap: 40px;
 
 }
 
 .items p {
-    margin-top: 210px;
+    max-width: 140px;
+    text-align: center;
+    margin-left: 20px;
     
-
 }
-
 h2 {
     text-align: center;
 }
